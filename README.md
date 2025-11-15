@@ -12,7 +12,7 @@ def create_brochure(filename="Aqua_Inc_Brochure.pdf"):
     # Title
     title = Paragraph("<b><font size=24>Aqua Inc</font></b>", styles["Title"])
     story.append(title)
-    story.append(Spacer(1, 0.3 * inch))
+    story.append(Spacer(1, 0.5 * inch))
 
     # Subtitle
     subtitle = Paragraph(
