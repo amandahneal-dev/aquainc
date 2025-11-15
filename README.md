@@ -20,7 +20,7 @@ def create_brochure(filename="Aqua_Inc_Brochure.pdf"):
         styles["Heading2"]
     )
     story.append(subtitle)
-    story.append(Spacer(1, 0.2 * inch))
+    story.append(Spacer(1, 0.3 * inch))
 
     # About Section
     about_text = """
